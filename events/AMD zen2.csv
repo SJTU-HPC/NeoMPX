@@ -1,0 +1,14 @@
+﻿Event(Acronym),PAPI_Native
+Number of branch instructions retired (brins),RETIRED_BRANCH_INSTRUCTIONS
+"Number of branch instructions retired, of any type, that were not correctly predicted. (brmisp)",RETIRED_BRANCH_INSTRUCTIONS_MISPREDICTED
+Number of uops retired. (uops),RETIRED_UOPS
+Instructions Retired (ins),RETIRED_INSTRUCTIONS
+Number of L2 prefetcher hits in the L2 (l2phl2),L2_PREFETCH_HIT_L2
+Number of L2 prefetcher hits in the L3 (l2phl3),L2_PREFETCH_HIT_L3
+Load/Store single uops dispatched (compare-and-exchange) (ldst),LS_DISPATCH:LD_ST_DISPATCH
+Store uops dispatched (st),LS_DISPATCH:STORE_DISPATCH
+Number of data cache reads hitting in the L2. (cl2_blkhx),CORE_TO_L2_CACHEABLE_REQUEST_ACCESS_STATUS:LS_RD_BLK_L_HIT_X
+Number of data cache fill requests missing in the L2. (cl2_blkc),CORE_TO_L2_CACHEABLE_REQUEST_ACCESS_STATUS:LS_RD_BLK_C
+Number of data cache store or state change (to exclusive) requests hitting in the L2.  (cl2_blkx),CORE_TO_L2_CACHEABLE_REQUEST_ACCESS_STATUS:LS_RD_BLK_X
+Number of data cache reads hitting a shared in line in the L2.  (cl2_blklhs),CORE_TO_L2_CACHEABLE_REQUEST_ACCESS_STATUS:LS_RD_BLK_L_HIT_S
+Number of I-cache fill requests hitting a clean line in the L2.  (cl2_ich),CORE_TO_L2_CACHEABLE_REQUEST_ACCESS_STATUS:IC_FILL_HIT_S

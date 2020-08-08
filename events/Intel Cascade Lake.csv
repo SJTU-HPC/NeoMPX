@@ -1,0 +1,17 @@
+﻿Event(Acronym),PAPI_Native
+Retired marco branches (brins:all),BR_INST_RETIRED:ALL_BRANCHES
+Retired marco conditional branches (brins:cond),BR_INST_RETIRED:CONDITIONAL
+Mispredicted marco branches (brmis:all),BR_MISP_RETIRED:ALL_BRANCHES
+Mispredicted marco conditional branches (brmis:cond),BR_MISP_RETIRED:CONDITIONAL
+Misses in DTLB that cause page walks (dtlm:m),DTLB_LOAD_MISSES:MISS_CAUSES_A_WALK
+Cache load STLB hits (dtlm:s),DTLB_LOAD_MISSES:STLB_HIT
+Retired load uops with L1 cache hits (l1lh),MEM_LOAD_UOPS_RETIRED:L1_HIT
+Retired load uops which missed L1D (l1lm),MEM_LOAD_UOPS_RETIRED:L1_MISS
+Retired load uops with L2 cache hits (l2lh),MEM_LOAD_UOPS_RETIRED:L2_HIT
+Retired load uops which missed L2D (l2lm),MEM_LOAD_UOPS_RETIRED:L2_MISS
+L3 miss load uops retired from local dram (ldram),MEM_LOAD_UOPS_L3_MISS_RETIRED:LOCAL_DRAM
+Instruction fetch tag lookups that hit in L1I (ich),ICACHE_64B:IFTAG_HIT
+Instruction fetch tag lookups that miss in L1I (icm),ICACHE_64B:IFTAG_MISS
+Cycles no uops issued by this thread (uistall),UOPS_ISSUED:STALL_CYCLES
+Cycles no executable uops retired (urstall),UOPS_RETIRED:STALL_CYCLES
+Instructions at retirement (inst),INSTRUCTION_RETIRED

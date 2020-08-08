@@ -1,0 +1,17 @@
+﻿Event(Acronym),PAPI_Native
+Level 1 data cache refill (L1DRE),L1D_CACHE_REFILL
+Level 2 data cache refill (L2DRE),L2D_CACHE_REFILL
+Instruction architecturally executed (INSTRE),INST_RETIRED
+All branches incur cost if mispredicted (BRRE),BR_RETIRED
+"Level 1 data cache access, read (L1DRD)",L1D_CACHE_RD
+"Level 2 data cache access, read (L2DRD)",L2D_CACHE_RD
+Level 1 instruction cache access (L1I),L1I_CACHE
+Bus access (BUS),BUS_ACCESS
+Mispredicted or not predicted branches (BRMIS),BR_MIS_PRED
+Predictable branch speculatively executed (BRPR),BR_PRED
+Data Memory access (MEM),MEM_ACCESS
+Level 1 data TLB access (L1DTLB),L1D_TLB
+Instruction TLB access (L1ITLB),L1I_TLB
+No operation cycles due to no operation (STFR),STALL_ERONTEND
+No operation cycles due to resource (STBR),STALL_BACKEND
+Instruction speculatively executed (INSTSP),INST_SPEC
